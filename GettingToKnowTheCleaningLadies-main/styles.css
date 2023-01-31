@@ -1,0 +1,51 @@
+
+/*  This whole thing is a combination of different w3schools css tutorials*/
+html { 
+ /* background: url("https://i.ibb.co/7J68Lzc/1-3-RJg-Vcl-Ww-Z1r-EERJ-5-USA.png") no-repeat center fixed; */
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url("https://i.ibb.co/SPYyQ4m/duck.gif");
+   background-repeat:repeat;
+}
+
+
+.header {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
